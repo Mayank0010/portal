@@ -1,0 +1,37 @@
+body {
+    background-color: #00DBDE;
+    background-image: linear-gradient(90deg, #00DBDE 0%, #FC00FF 100%);
+}
+
+#register input[type="submit"]:hover {
+    background: #1aff1a;
+    -webkit-transition: background 0.3s ease-in-out;
+    -moz-transition: background 0.3s ease-in-out;
+    transition: background-color 0.3s ease-in-out;
+}
+
+#register input[type="submit"] {
+    font: 600 16px/18px "Roboto", Helvetica, Arial, sans-serif;
+}
+
+#login input[type="submit"]:hover {
+    background: #1aff1a;
+    -webkit-transition: background 0.3s ease-in-out;
+    -moz-transition: background 0.3s ease-in-out;
+    transition: background-color 0.3s ease-in-out;
+}
+
+#login input[type="submit"] {
+    font: 600 16px/18px "Roboto", Helvetica, Arial, sans-serif;
+}
+
+#register input[type="name"]:hover,
+#register input[type="username"]:hover,
+#register input[type="email"]:hover,
+#register input[type="password"]:hover,
+#register input[type="confirm"]:hover {
+    -webkit-transition: border-color 0.3s ease-in-out;
+    -moz-transition: border-color 0.3s ease-in-out;
+    transition: border-color 0.3s ease-in-out;
+    border: 1px solid #aaa;
+}
